@@ -1,0 +1,486 @@
+<resources>
+
+    <string name="app_name">Agenor Wallet</string>
+    <string name="loading" translatable="false">Loading… \nPlease wait until the process is completed.</string>
+    <string name="btn_create_wallet">Create Wallet</string>
+    <string name="btn_restore_wallet">Restore Wallet</string>
+    <string name="restore_wallet_message">Select a backup of the wallet\nfrom a storage unit</string>
+    <string name="pincode_message">Please confirm your PIN code</string>
+    <string name="select_file">Select File</string>
+    <string name="action_qr">QR Cocde</string>
+    <string name="action_add">Add Contact</string>
+    <string name="string_password">Password</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">appbar_scrolling_view_behavior</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="set_amount">Enter amount to donate</string>
+    <string name="set_amount_piv" translatable="false">AGE</string>
+    <string name="set_amount_usd" translatable="false">Enter amount here</string>
+    <string name="add_all" translatable="false">ADD ALL</string>
+    <string name="title_amount">Amount (AGE)</string>
+    <string name="title_equivalent" translatable="false">Equivalent</string>
+    <string name="title_address">Address</string>
+    <string name="title_name">Name or Label</string>
+    <string name="title_description">Description</string>
+    <string name="title_receiver_name">Receiver\'s name</string>
+    <string name="title_date">Date</string>
+    <string name="set_address">Add address</string>
+    <string name="add_address">Enter address here</string>
+    <string name="set_name">Enter name or label here</string>
+    <string name="set_description">Add description (optional)</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_request">Request</string>
+    <string name="payment_request" translatable="false">Payment Request</string>
+    <string name="settings_subtitle_security">Security</string>
+    <string name="backup_wallet_message">Your backup will be encrypted with the password you enter below and saved to your device\'s default Download folder.</string>
+    <string name="settings_subtitle_preference">Preference</string>
+    <string name="settings_subtitle_about">About</string>
+    <string name="restore_wallet">Restore wallet</string>
+    <string name="backup_wallet">Backup wallet</string>
+    <string name="change_pincode">Change PIN code</string>
+    <string name="local_currency" translatable="false">Local Currency</string>
+    <string name="local_currency_usd">USD</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="add_name">Add a name</string>
+
+    <string name="scan_camera_problem_dialog_title">Sorry</string>
+    <string name="scan_camera_problem_dialog_message">The camera has a problem. You probably need to restart the device.</string>
+    <string name="scan_camera_permission_dialog_title">Camera permission</string>
+    <string name="scan_camera_permission_dialog_message">In order to scan QR codes, you need to grant permission to use the camera.</string>
+    <string name="scan_result_title">Scanner result</string>
+    <string name="scan_result_address_title">Address detected</string>
+    <string name="node_selection_message">Select an existing trusted node or create your own</string>
+    <string name="select_node">Select Node</string>
+
+    <string name="select">Select a Node</string>
+    <string name="text_version">Version</string>
+    <string name="network_monitor">Network monitor</string>
+    <string name="settings_report">Report issue</string>
+    <string name="settings_report_internal" translatable="false">Export log</string>
+    <string name="send_message">Transaction details:</string>
+    <string name="save_message">Do you want to save the address?</string>
+    <string name="confirm">Confirm</string>
+    <string name="action_scan">scanner</string>
+    <string name="btn_select_node">Add node</string>
+    <string name="node_default" translatable="false">Default values</string>
+    <string name="settings_node_dns_discovery" translatable="false">DNS Discovery</string>
+    <string name="title_no_trusted_peer_connection" translatable="false">Peer issue</string>
+    <string name="message_no_trusted_peer_connection" translatable="false">Trusted peer connection fail</string>
+    <string name="share_address_text">Share address</string>
+    <string name="error_sending_coins">Send coins fail</string>
+
+    <string name="ssl_port">SSL port</string>
+    <string name="hint_ssl_port">Default SSL port</string>
+    <string name="host">Host</string>
+    <string name="hint_host">Enter host here</string>
+    <string name="tcp_port">TCP port</string>
+    <string name="hint_tcp_port">Default TCP port if left blank</string>
+    <string name="add_memo">Monthly payment</string>
+    <string name="backup_create">Create Backup</string>
+    <string name="transaction_hash" translatable="false">Transaction ID</string>
+    <string name="explorer" translatable="false">Explorer</string>
+    <string name="backup_passwords_doesnt_match">Passwords doesn\'t match, please enter password again.</string>
+    <string name="backup_completed">Backup completed</string>
+    <string name="backup_completed_text" translatable="false">Congratulations! Your wallet is backup is complete.\nIt has been saved in the folder at\n%s </string>
+    <string name="import_keys_dialog_message" translatable="false">Select a backup file to restore wallet and enter the password used to encrypt it.\n\nBackup files are saved in your device\'s default %s folder.</string>
+    <string name="backup_restore">Restore</string>
+    <string name="import_export_keys_dialog_failure_title">Restore wallet fail</string>
+    <string name="import_keys_dialog_failure" translatable="false">Error importing backup file\n%s</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="button_retry">Retry</string>
+    <string name="restore_wallet_dialog_success">Wallet was restored</string>
+    <string name="restore_wallet_dialog_success_replay">Your wallet was successfully restored. Its balance will be determined next. This will take some time.</string>
+    <string name="unavailable">Amount unspendable:</string>
+    <string name="sending_tx">Sending transaction</string>
+    <string name="currency_message" translatable="false">Select your the local currency \n of your choice</string>
+    <string name="title_fee">Fee</string>
+    <string name="title_currency" translatable="false">Local Currency</string>
+    <string name="title_agenor_send">Amount send</string>
+    <string name="empty_message_address">No saved addresses</string>
+    <string name="error_message">There seems to been an error\nwith your transaction</string>
+    <string name="settings_change_trusted_node" translatable="false">Change trusted node</string>
+    <string name="settings_reset_blockchain">Reset blockchain</string>
+    <string name="save">Save</string>
+    <string name="tutorial_message">Private Instant Verified Transaction (Agenor) is a decentralized and open-source privacy-focused cryptocurrency run by a global community of creators, innovators, and technology enthusiasts.</string>
+    <!-- Tutorial -->
+    <string name="next_words" translatable="false">Next 8 words</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="restore" translatable="false">Restore</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Agenor is secure</string>
+    <string name="desc_slide1">The first coin with BIP38 Encryption and Decryption of Private Keys</string>
+    <string name="title_slide2">6O SECOND BLOCK TIME</string>
+    <string name="desc_slide2">Standard transactions confirm in ~1 minute, and SwiftX transactions are confirmed instantly</string>
+    <string name="title_slide3">Extremely secure and private</string>
+    <string name="desc_slide3">Agenor is the most advanced Proof-of-Stake coin with Zerocoin Protocol for anonymous transactions.</string>
+    <string name="title_slide4" translatable="false">Trusted nodes federation</string>
+    <string name="desc_slide4" translatable="false">The trusted nodes federation make light PoS wallets possible. Rely on existing nodes or create your own.</string>
+    <string name="option_add_node">Add node</string>
+    <string name="report_issue_dialog_description">Issue description</string>
+    <string name="report_issue_dialog_collect_device_info" translatable="false">Append device information</string>
+    <string name="report_issue_dialog_collect_application_log" translatable="false">Append application log</string>
+    <string name="report_issue_dialog_collect_wallet_dump" translatable="false">Append wallet dump</string>
+    <string name="report_issue_dialog_collect_installed_packages" translatable="false">Append list of installed packages</string>
+    <string name="report_issue_dialog_collect_db_data" translatable="false">Append databases data</string>
+    <string name="report_issue_dialog_report">Report</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="report_issue_dialog_mail_intent_chooser">Send report using…</string>
+    <string name="report_issue_dialog_mail_intent_failed">Sending report failed.</string>
+    <string name="report_issue_dialog_message_issue">Please describe your issue precisely enough to be reproduced.</string>
+    <string name="internal_log" translatable="false">A folder will be created on the Downloads directory containing the wallet\'s logs</string>
+    <string name="report_issuea_dialog_title">Report issue</string>
+    <string name="invalid_inputs">Invalid input</string>
+    <string name="send_error_dialog_tag" translatable="false">send error dialog tag</string>
+    <string name="restore_dialog_tag" translatable="false">restore dialog tag</string>
+    <string name="restore_dialog_error" translatable="false">restore dialog error</string>
+    <string name="settings_support">Support</string>
+    <string name="support_subject">Agenor Wallet support</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="faq" translatable="false">FAQ</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="copy_message">Address copied to the clipboard</string>
+    <string name="security_message">Write down the 24-word recovery seed phrase in the correct order. It is required to restore your wallet.\n\n Keep your mnemonic code safe and private. Anyone with it will be able to access your funds.</string>
+    <string name="security_message_confirmation">You have to confirm in the next screen</string>
+    <string name="confirmation_message">Verify your security words</string>
+    <string name="order_message_confirmation">Choose the words in the right order</string>
+    <string name="backup_words" translatable="false">Mnemonic Code</string>
+    <string name="btn_secure">Already noted</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+    <string name="pincode_saved">New PIN saved</string>
+    <string name="insert_old_pin">Input current PIN code</string>
+    <string name="insert_new_pin">Input new PIN code</string>
+    <string name="invalid_pincode">Invalid PIN code</string>
+    <string name="contact_already_exist">Contact address already exist</string>
+    <string name="invalid_input_address">Invalid address</string>
+    <string name="reminder_backup" translatable="false">Backup reminder</string>
+    <string name="reminder_backup_body">It is highly recommended to create a backup of your wallet. Backup now?</string>
+    <string name="button_ok">Ok</string>
+    <string name="btn_next" translatable="false">Next</string>
+    <string name="backup_succed_dialog" translatable="false">backup_succed_dialog</string>
+    <string name="error_no_connectivity_title">No internet connection</string>
+    <string name="error_no_connectivity_body">The app is going to save your transaction until the connection back.\nDo you want to continue?</string>
+    <string name="cannot_restore_wallet">Error, cannot restore wallet\nplease verify your password</string>
+    <string name="dialog_reset_blockchain_title">Reset Blockchain</string>
+    <string name="dialog_reset_blockchain_body">Blockchain data will be reset.\nSynchronization may take some time.\nConfirm reset?</string>
+    <string name="reseting_blockchain">Reseting blockchain..</string>
+    <string name="donations">Donations</string>
+    <string name="donation_message">Donations help fund maintenance\n and development of the app and are greatly appreciated.</string>
+    <string name="donation_title">I would like to donate</string>
+    <string name="btn_donate">Donate</string>
+    <string name="donation_thanks">Sending donation.. Thanks for your support!</string>
+    <string name="bad_pin_code" translatable="false">Invalid Pin</string>
+    <string name="restore_words_1" translatable="false">Enter your 24-word recovery seed phrase in the correct order to restore your wallet.</string>
+    <string name="restore_from_words" translatable="false">Restore from words</string>
+    <string name="restore_words_2" translatable="false">Enter words 9-16 of your 24-word recovery seed phrase in the correct order.</string>
+    <string name="restore_words_3" translatable="false">Enter words 17-24 of your 24-word recovery seed phrase in the correct order.</string>
+    <string name="fee_recommended" translatable="false">Recommended</string>
+    <string name="fee_custom" translatable="false">Custom</string>
+    <string name="confirmation_time" translatable="false">Confirmation time</string>
+    <string name="fee_normal" translatable="false">Normal</string>
+    <string name="fee_fast" translatable="false">Fast</string>
+    <string name="per_kilobyte" translatable="false">Per kilobyte</string>
+    <string name="total_at_least" translatable="false">Total at least</string>
+    <string name="fee" translatable="false">Fee</string>
+    <string name="minimum_fee" translatable="false">Pay only the minimum fee of 0.00010000 Piv/kB</string>
+    <string name="several_outputs_add_address" translatable="false">ADD ADDRESS</string>
+    <string name="address_num" translatable="false">Address %d </string>
+    <string name="invalid_last_amount" translatable="false">Invalid last address amount</string>
+    <string name="inputs_explanation" translatable="false">Select coins to consume in the transaction</string>
+    <string name="bad_address" translatable="false">Bad address</string>
+    <string name="invalid_amount_value" translatable="false">Invalid amount</string>
+    <string name="select_all" translatable="false">Select all</string>
+    <string name="total_amount" translatable="false">Total:</string>
+    <string name="send_amount_input_error" translatable="false">You must set an amount to add custom inputs.</string>
+    <string name="tx_detail_amount" translatable="false">Total amount</string>
+    <string name="tx_detail_inputs_title" translatable="false">Input(s)</string>
+    <string name="tx_detail_input_title" translatable="false">Input</string>
+    <string name="tx_detail_input" translatable="false">%d Input</string>
+    <string name="tx_detail_inputs" translatable="false">%d Inputs</string>
+    <string name="txt_detail_confirmations" translatable="false">Number of confirmations</string>
+    <string name="tx_detail_no_memo" translatable="false">No description</string>
+    <string name="tx_detail_addresses" translatable="false">Output(s)</string>
+    <string name="custom_fee" translatable="false">Custom fee</string>
+    <string name="coin_selection" translatable="false">Coin selection</string>
+    <string name="set_default" translatable="false">Set default</string>
+    <string name="delete_addresses" translatable="false">DELETE ADDRESSES</string>
+    <string name="sync" translatable="false">Synced</string>
+    <string name="syncing" translatable="false">Syncing</string>
+    <string name="not_connection" translatable="false">No connection</string>
+    <string name="confimations" translatable="false">Confirmations</string>
+    <string name="multiple_address_send" translatable="false">Sending to %d addresses</string>
+    <string name="fee_per_kb" translatable="false">%s Piv/kB</string>
+    <string name="fee_explanation" translatable="false">If the custom fee is lower than the minimum fee (0.0001 AGE/kB) the cost will be the minimum and not the custom fee selected.\n Fee calculated per kilobyte.</string>
+    <string name="invalid_fee_amount" translatable="false">Invalid fee amount</string>
+    <string name="load_inputs_fail" translatable="false">Coin control fail</string>
+    <string name="title_tx_weight" translatable="false">Size</string>
+    <string name="no_data_available" translatable="false">Data not available</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="no_coin_selected" translatable="false">No coins selected</string>
+    <string name="multi_send_activity_title" translatable="false">Multi Send</string>
+    <string name="address_book_screen_title" translatable="false">Address Book</string>
+    <string name="my_wallet" translatable="false">My Wallet</string>
+    <string name="settings_screen_title" translatable="false">Settings</string>
+    <string name="options_menu" translatable="false">Options Menu</string>
+    <string name="delete_address_label_text" translatable="false">Label for address\n%s\nis going to be deleted.\n\nAre you sure?</string>
+    <string name="address_label_deleted" translatable="false">Address label deleted.</string>
+    <string name="no_available_inputs" translatable="false">You don\'t have any code to spend</string>
+    <string name="restore_mnemonic_screen_title" translatable="false">Restore with mnemonic code</string>
+    <string name="invalid_mnemonic_code" translatable="false">Please ensure your mnemonic code is inputted correctly and in order</string>
+    <string name="restore_mnemonic" translatable="false">Restoring wallet from mnemonic..</string>
+    <string name="restore_mnemonic_title" translatable="false">Restore Mnemonic</string>
+    <string name="restore_mnemonic_dialog_body" translatable="false">The restore is almost done!\nThe blockchain synchronization process is going to start and could take a while to be fully synced.</string>
+    <string name="invalid_host" translatable="false">Invalid host name</string>
+    <string name="validate_multi_send_enabled" translatable="false">Blocked action, multi send enabled</string>
+    <string name="detail_no_available_inputs" translatable="false">No available inputs information</string>
+    <string name="input" translatable="false">Input</string>
+    <string name="output" translatable="false">Output</string>
+    <string name="report_crash_title" translatable="false">Report crash</string>
+    <string name="crash_toast_text" translatable="false">Agenor Wallet crash</string>
+    <string name="backup_fail" translatable="false">Backup fail</string>
+    <string name="no_peer_connection" translatable="false">No connection to any node</string>
+    <string name="warn_sharing_pub_key" translatable="false">Anyone with your extended public key can view your wallet balance and transactions, but not spend.</string>
+    <string name="public_key" translatable="false">Extended public key (xPub)</string>
+    <string name="derivation_path" translatable="false">Derivation path (BIP32)</string>
+    <string name="unknown_error_message" translatable="false">Error loading the xpub, please send a report</string>
+    <string name="settings_export_pub_key" translatable="false">Export account</string>
+    <string name="copy_key_message" translatable="false">Key copied</string>
+    <string name="hint_paste_xpub" translatable="false">Paste your xpub here</string>
+    <string name="explanation_import_xpub" translatable="false">Import your extended public key (xPub) to make your wallet Watch-only.\n\nWatch-only wallets will display balance and transaction history but not allow spending.</string>
+    <string name="import_xpub" translatable="false">Import</string>
+    <string name="settings_import_xpub" translatable="false">Watch-only mode</string>
+    <string name="screen_title_watch_only" translatable="false">Watch-only</string>
+    <string name="watch_only_mode_activated" translatable="false">Watch-only mode activated</string>
+    <string name="watch_only_mode_activated_text" translatable="false">Please wait until the synchronization is completed, could take a while be patient.</string>
+    <string name="error_importing_xpub" translatable="false">Please check the key or send an error report.</string>
+    <string name="error_importing_xpub_title" translatable="false">Error importing xpub</string>
+    <string name="error_watch_only_mode" translatable="false">Action is not possible on watch only mode</string>
+    <string name="export_wallet" translatable="false">Export Account</string>
+    <string name="commit_tx_fail" translatable="false">Commit transaction fail, please send the error report</string>
+    <string name="amount_error" translatable="false">Amount must be higher than 0</string>
+    <string name="title_add_node" translatable="false">"Add Node"</string>
+
+    <string name="title_coin_selection" translatable="false">Coins Selection</string>
+
+
+    <!-- Sweep wallet -->
+    <!-- Sweep paper wallet means to redeem coins from a code usually printed on a paper -->
+    <string name="title_activity_sweep_wallet" translatable="false">Sweep paper wallet</string>
+    <string name="sweep_wallet_info" translatable="false">You are about to transfer coins from a paper wallet to your Agenor Wallet.\nAfter the transfer is complete, please avoid reusing the paper wallet for security reasons.\n\nSupported formats: WIF, BIP38, Mini private key.</string>
+    <string name="sweep_wallet_key_title" translatable="false">Private key</string>
+    <string name="sweep_wallet_key_password" translatable="false">Private key password</string>
+    <string name="sweep_wallet_key_hint" translatable="false">type or scan a private key</string>
+    <string name="sweep_wallet_bad_format" translatable="false">Could not recognize the private key format.</string>
+    <string name="sweep_wallet_bad_coin_type" translatable="false">The private key type does not match the destination account type.</string>
+    <string name="sweep_wallet_bad_password" translatable="false">Incorrect password.</string>
+    <string name="sweep_wallet_zero_coins" translatable="false">The private key does not contain any funds.</string>
+    <string name="sweep_wallet_key_wait" translatable="false">Please wait while sweeping your paper wallet</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_decoding" translatable="false">Decoding private key&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_loading" translatable="false">Loading balance&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_signing" translatable="false">Creating transaction&#8230;</string>
+    <!-- Fees settings -->
+    <string name="title_activity_transaction_fees" translatable="false">Transaction fees</string>
+    <!-- Example: Bitcoin transaction fees-->
+    <string name="tx_fees_title" translatable="false">%1$s transaction fees</string>
+    <!-- Example: The ratealue is per kilobyte.-->
+    <string name="tx_fees_description" translatable="false">The fee rate is %1$s.</string>
+    <string name="tx_fees_per_kilobyte" translatable="false">per kilobyte of transaction data</string>
+    <string name="tx_fees_per_byte" translatable="false">per byte of transaction data</string>
+    <string name="tx_fees_per_transaction" translatable="false">per transaction</string>
+
+    <!-- Terms -->
+    <string name="terms_of_service_title" translatable="false">Terms of service</string>
+    <!-- TODO translate to other languages -->
+    <string name="terms_of_service" translatable="false">LEGAL DISCLAIMER\n
+    \n
+    \n
+    1. Risks related to the use of Agenor Wallet\n
+    \n
+    Furszy and/or Agenor will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:\n
+    \n
+    (1) Mistakes made by the user of any cryptocurrency-related software or service, e.g., forgotten passwords, payments sent to wrong code addresses, and accidental deletion of wallets.\n
+    \n
+    (2) Software problems of the wallet and/or any cryptocurrency-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the wallet and/or any cryptocurrency-related software or service.\n
+    \n
+    (3) Technical failures in the hardware of the user of any cryptocurrency-related software or service, e.g., data loss due to a faulty or damaged storage device.\n
+    \n
+    (4) Security problems experienced by the user of any cryptocurrency-related software or service, e.g., unauthorized access to users\' wallets and/or accounts.\n
+    \n
+    (5) Actions or inactions of third parties and/or events experienced by third parties, e.g., bankruptcy of service providers, information security attacks on service providers, and fraud conducted by third parties.\n
+    \n
+    \n
+    2. Trading and Investment risks\n
+    \n
+    There is considerable exposure to risk in any crypto-currency exchange transaction. Any transaction involving currencies involves risks including, but not limited to, the potential for changing economic conditions that may substantially affect the price or liquidity of a currency. Investments in crypto-currency exchange speculation may also be susceptible to sharp rises and falls as the relevant market values fluctuate. It is for this reason that when speculating in such markets it is advisable to use only risk capital. \n
+    \n
+    \n
+    3. Electronic Trading Risks\n
+    \n
+    Before you engage in transactions using an electronic system, you should carefully review the rules and regulations of the exchanges offering the system and/or listing the instruments you intend to trade. Online trading has inherent risk due to system response and access times that may vary due to market conditions, system performance, and other factors. You should understand these and additional risks before trading.\n
+    \n
+    \n
+    4. Compliance with tax obligations\n
+    \n
+    The users of the wallet are solely responsible to determinate what, if any, taxes apply to their crypto-currency transactions. The owners of, or contributors to, the wallet are NOT responsible for determining the taxes that apply to crypto-currency transactions.\n
+    \n
+    \n
+    5. No warranties\n
+    \n
+    The wallet is provided on an \"as is\" basis without any warranties of any kind regarding the wallet and/or any content, data, materials and/or services provided on the wallet.\n
+    \n
+    \n
+    6. Limitation of liability\n
+    \n
+    Unless otherwise required by law, in no event shall the owners of, or contributors to, the wallet be liable for any damages of any kind, including, but not limited to, loss of use, loss of profits, or loss of data arising out of or in any way connected with the use of the wallet. In no way are the owners of, or contributors to, the wallet responsible for the actions, decisions, or other behavior taken or not taken by you in reliance upon the wallet.\n
+    \n
+    \n
+    7. Arbitration\n
+    \n
+    The user of the wallet agrees to arbitrate any dispute arising from or in connection with the wallet or this disclaimer, except for disputes related to copyrights, logos, trademarks, trade names, trade secrets or patents.\n
+    \n
+    \n
+    8. Last amendment\n
+    \n
+    This disclaimer was amended for the last time on January 1st, 2016.</string>
+    <string name="settings_sweep_wallet" translatable="false">Sweep wallet</string>
+    <string name="disconnected_label" translatable="false">No connection</string>
+    <string name="error_generic" translatable="false">Error occurred while performing action</string>
+    <string name="old_wallet_version" translatable="false">Old wallet version</string>
+    <string name="advance_restore" translatable="false">Advanced restore</string>
+    <string name="restore_bip32_warning" translatable="false">If your mnemonic code was created by version 1.02 or lower Agenor Wallet, check this box to restore wallet properly.</string>
+    <string name="fee_included" translatable="false">Fee is not included in the amount</string>
+    <string name="title_blockstore_error" translatable="false">Error</string>
+    <string name="message_blockstore_error" translatable="false">Blockchain store corrupted\n\nPlease send the error report and try to restore the wallet from the mnemonic code or the backup file.</string>
+    <string name="upgrade_wallet" translatable="false">Upgrade Wallet</string>
+    <string name="upgrade_succesfull" translatable="false">Upgrade was successful!, please wait some time before the wallet is sync again</string>
+    <string name="write_external_denied" translatable="false">Permission denied to write in the external storage</string>
+    <string name="message_connection_is_needed" translatable="false">Peer connection is needed to execute this task, please check if your internet is active or if you are using a trusted node check if it is online.</string>
+    <string name="no_rate" translatable="false">No rate</string>
+    <string name="change_address_explain" translatable="false">You can customize the change address of your transaction specifing it or checking the box below and sending the amount to the origin (if there is more than one origin the wallet will chose the address with the highest rate).</string>
+    <string name="change_address_origin" translatable="false">Send it to origin.</string>
+    <string name="clean" translatable="false">Clean</string>
+    <string name="origin_address" translatable="false">Origin address</string>
+    <string name="option_change_address" translatable="false">Change address</string>
+    <string name="option_custom_fee" translatable="false">Custom fee</string>
+    <string name="option_multi_outputs" translatable="false">Multi send</string>
+    <string name="option_coin_selection" translatable="false">Coin selection</string>
+    <string name="change_address_remember" translatable="false">Remember selection</string>
+    <string name="my_address" translatable="false">My Address</string>
+    <string name="settings_rates" translatable="false">Reference Currency</string>
+    <string name="rate_selected" translatable="false">Rate selected</string>
+    <string name="fab_send" translatable="false">Send</string>
+    <string name="fab_request" translatable="false">Request</string>
+    <string name="scan_request" translatable="false">Scan QR Code</string>
+    <string name="payment_request_received" translatable="false">Request Received</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="amount" translatable="false">Amount</string>
+    <string name="restoring_wallet" translatable="false">Restoring wallet..</string>
+    <string name="no_transactions" translatable="false">No transaction history</string>
+    <string name="sync_in_progress" translatable="false">The wallet is out of sync, some transactions may be missing.</string>
+    <string name="title_new_address" translatable="false">New Address</string>
+
+    <!-- Restore words -->
+
+    <string name="mnemonic_word1" translatable="false">Word 1</string>
+    <string name="mnemonic_word2" translatable="false">Word 2</string>
+    <string name="mnemonic_word3" translatable="false">Word 3</string>
+    <string name="mnemonic_word4" translatable="false">Word 4</string>
+    <string name="mnemonic_word5" translatable="false">Word 5</string>
+    <string name="mnemonic_word6" translatable="false">Word 6</string>
+    <string name="mnemonic_word7" translatable="false">Word 7</string>
+    <string name="mnemonic_word8" translatable="false">Word 8</string>
+    <string name="mnemonic_word9" translatable="false">Word 9</string>
+    <string name="mnemonic_word10" translatable="false">Word 10</string>
+    <string name="mnemonic_word11" translatable="false">Word 11</string>
+    <string name="mnemonic_word12" translatable="false">Word 12</string>
+    <string name="mnemonic_word13" translatable="false">Word 13</string>
+    <string name="mnemonic_word14" translatable="false">Word 14</string>
+    <string name="mnemonic_word15" translatable="false">Word 15</string>
+    <string name="mnemonic_word16" translatable="false">Word 16</string>
+    <string name="mnemonic_word17" translatable="false">Word 17</string>
+    <string name="mnemonic_word18" translatable="false">Word 18</string>
+    <string name="mnemonic_word19" translatable="false">Word 19</string>
+    <string name="mnemonic_word20" translatable="false">Word 20</string>
+    <string name="mnemonic_word21" translatable="false">Word 21</string>
+    <string name="mnemonic_word22" translatable="false">Word 22</string>
+    <string name="mnemonic_word23" translatable="false">Word 23</string>
+    <string name="mnemonic_word24" translatable="false">Word 24</string>
+    <string name="restore_without_file" translatable="false">No file available</string>
+
+
+    <!-- Privacy -->
+    <string name="nav_privacy" translatable="false">Privacy</string>
+    <string name="title_privacy" translatable="false">Privacy</string>
+    <string name="btn_convert" translatable="false">Mint</string>
+    <string name="title_convert" translatable="false">Mint</string>
+    <string name="convert_piv" translatable="false">Convert AGE</string>
+    <string name="convert_zpiv" translatable="false">Mint zAGE</string>
+    <string name="btn_send_zpiv" translatable="false">Send zAGE</string>
+    <string name="btn_send_piv" translatable="false">Send AGE</string>
+    <string name="label_amount_convert_piv" translatable="false">Amount of zAGE to convert into AGE </string>
+    <string name="label_amount_convert_zpiv" translatable="false">Amount of AGE to convert into zAGE </string>
+    <string name="message_convert_zpiv" translatable="false">AGE can be converted to zAGE, this new zAGE have no transaction history. Sending zAGE is 100% anonymous and untraceable</string>
+    <string name="coin_control" translatable="false">Coin Control</string>
+    <string name="coin_balance" translatable="false">Balance</string>
+    <string name="total_selected" translatable="false">Total Selected</string>
+    <string name="demon1" translatable="false">Demon. 1 </string>
+    <string name="demon5" translatable="false">Demon. 5 </string>
+    <string name="demon10" translatable="false">Demon. 10 </string>
+    <string name="demon50" translatable="false">Demon. 50 </string>
+    <string name="demon100" translatable="false">Demon. 100 </string>
+    <string name="demon500" translatable="false">Demon. 500 </string>
+    <string name="demon1000" translatable="false">Demon. 1000 </string>
+    <string name="demon5000" translatable="false">Demon. 5000  </string>
+    <string name="title_send_private" translatable="false">Send private transaction</string>
+    <string name="empty_zpiv_transactions" translatable="false">No zAGE transactions</string>
+    <string name="zc_mint" translatable="false">Convert AGE</string>
+    <string name="zerocoin_mint" translatable="false">Mint</string>
+    <string name="title_transaction_detail" translatable="false">Transaction Details</string>
+    <string name="export_zcoin" translatable="false">Export zAGE</string>
+    <string name="title_export_zpiv" translatable="false">Export zAGE</string>
+    <string name="title_spent" translatable="false">Spent</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="denomination" translatable="false">Denom</string>
+
+    <!-- Settings -->
+
+    <string name="settings_title_rates" translatable="false">Reference Currency</string>
+    <string name="settings_title_nodes" translatable="false">Node preferences</string>
+    <string name="settings_title_network" translatable="false">Network Monitor</string>
+    <string name="settings_title_faq" translatable="false">FAQ</string>
+    <string name="title_settings" translatable="false">Settings</string>
+    <string name="title_pincode" translatable="false">Pincode</string>
+    <string name="send_input_address" translatable="false">Name or Address</string>
+    <string name="send_clear" translatable="false">CLEAR</string>
+    <string name="starting_spend_process" translatable="false">Starting spend process</string>
+    <string name="title_mnemonic_code" translatable="false">Mnemonic code</string>
+    <string name="title_restore_wallet" translatable="false">Restore wallet</string>
+    <string name="permission_granted" translatable="false">Permission Granted</string>
+    <string name="settings_reset_blockchain_to" translatable="false">Rollback chain to an specific block</string>
+    <string name="error_creating_log_folder" translatable="false">Error creating log folder</string>
+    <string name="error_copying_files_to_log_folder" translatable="false">Error copying files to log folder</string>
+    <string name="log_folder_created" translatable="false">Log folder created</string>
+    <string name="spending_zpiv" translatable="false">Spending zAGE process</string>
+    <string name="dns_discovery_enabled" translatable="false">DNS discovery enabled</string>
+    <string name="app_process_task" translatable="false">App processing task</string>
+    <string name="wallet_is_not_sync" translatable="false">Wallet is not sync</string>
+
+</resources>

@@ -1,0 +1,3 @@
+D:/Git Work/Argenor-Android/app/.cxx/cmake/debug/x86/CMakeFiles/native-lib.dir
+D:/Git Work/Argenor-Android/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/Git Work/Argenor-Android/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

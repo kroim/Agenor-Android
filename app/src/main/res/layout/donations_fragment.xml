@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.base.BaseDrawerActivity">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/donationMessage"
+            android:layout_marginBottom="30dp"
+            android:text="@string/donation_message"
+            style="@style/MessageTextDark"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/img_love"/>
+
+        <TextView
+            android:id = "@+id/titleDonation"
+            android:text = "@string/title_amount"
+            style="@style/Label" />
+
+        <EditText
+            android:id = "@+id/edit_amount"
+            android:ellipsize="start"
+            android:inputType="numberDecimal"
+            android:maxLength="8"
+            android:hint="@string/set_amount"
+            android:text = ""
+            style="@style/InputPrimary" />
+
+        <TextView
+            android:id = "@+id/txt_local_currency"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "0"
+            android:textColor = "@color/subtitle"
+            android:textSize = "16sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:text="@string/btn_donate"
+            style="@style/ButtonPrimary" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

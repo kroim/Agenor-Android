@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bgWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.base.BaseDrawerActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="left">
+
+            <TextView
+                android:id = "@+id/titleName"
+                android:text = "@string/title_name"
+                style="@style/Label" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:ellipsize="start"
+                android:gravity="start|center_vertical"
+                style="@style/InputPrimary"
+                android:textSize = "15sp"
+                android:hint="@string/set_name"
+                android:text = "" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id = "@+id/titleAddress"
+                android:text = "@string/title_address"
+                style="@style/Label" />
+
+                <LinearLayout
+                    android:id="@+id/layout_qr_button"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/img_qr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_qr_code"
+                        android:text="Button"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <EditText
+                android:id = "@+id/edit_address"
+                android:gravity="start"
+                android:layout_width = "match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:minLines="1"
+                android:padding="12dp"
+                android:textSize="16dp"
+                android:background="@drawable/bg_edit_text_primary_selector"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:hint="@string/add_address"
+                android:textColor = "#434343"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

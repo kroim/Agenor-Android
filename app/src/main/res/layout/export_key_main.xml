@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgWhite"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        tools:text="Public key"
+        android:id="@+id/txt_title"
+        android:gravity="left"
+        style="@style/Label" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_key"
+        android:paddingBottom="9dp"
+        android:textSize="18sp"
+        android:textColor="@color/mainText"
+        tools:text="xpub"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_warn"
+        android:paddingBottom="9dp"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        tools:text="@string/warn_sharing_pub_key" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:id="@+id/txt_title_derivation_path"
+        style="@style/Label"
+        tools:text="Derivation path (BIP32)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_derivation_path"
+        android:paddingBottom="9dp"
+        android:textSize="16sp"
+        android:textColor="@color/mainText"
+        tools:text="M / 44' / 119' / 0' "/>
+
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/img_qr"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center" />
+
+</LinearLayout>

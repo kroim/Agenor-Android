@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bgWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="agenor.org.agenorwallet.ui.transaction_send_activity.AmountInputFragment"
+        android:id="@+id/fragment_amount"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp">
+
+
+        <TextView
+            android:id = "@+id/titleDescription"
+            android:text = "@string/title_description"
+            style="@style/Label" />
+
+        <EditText
+            android:id = "@+id/edit_memo"
+            android:ellipsize="start"
+            android:gravity="left|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:hint="@string/set_description"
+            android:text = ""
+            style="@style/InputPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|bottom"
+        android:padding="20dp"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:text="@string/btn_request"
+            style="@style/ButtonPrimary" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fee_included"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

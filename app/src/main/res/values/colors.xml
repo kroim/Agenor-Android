@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#0f1932</color>
+    <color name="colorPrimaryDark">#0f1932</color>
+    <color name="colorAccent">#0f1932</color>
+    <color name="bgPurple">#0f1932</color>
+    <color name="green">#009688</color>
+    <color name="lightGreen1">#36c6a5</color>
+    <color name="mainGreen">#63ece0</color>
+    <color name="sync_green">#B7FFF9</color>
+    <color name="lightGreen">#50e3c2</color>
+    <color name="colorPurple">#0f1932</color>
+    <color name="lightPurple">#C2BDCA</color>
+    <color name="darkPurple">#372f44</color>
+    <color name="bgWhite">#ffffff</color>
+    <color name="bgWhite30">#4Dffffff</color>
+    <color name="bgBlack30">#4D000000</color>
+    <color name="bgBlack80">#CC000000</color>
+    <color name="bgWhite80">#E6ffffff</color>
+    <color name="bgBlackX">#DD000000</color>
+    <color name="bgBlack10">#1A000000</color>
+    <color name="bgBlack05">#0D000000</color>
+    <color name="textColorPurple">#0f1932</color>
+    <color name="textColorWhite">#ffffff</color>
+    <color name="textColorLightPurple">#ffffff</color>
+    <color name="transation_title">#0f1932</color>
+    <color name="mainText">#262626</color>
+    <color name="subtitle">#757575</color>
+    <color name="bgInput">#F5F6F7</color>
+    <color name="hintInput">#979899</color>
+    <color name="red">#d0011b</color>
+    <color name="warning">#d74759</color>
+    <color name="colorLightGrey">#EAEAEA</color>
+    <color name="gray_87_text">#dd000000</color>
+
+    <!-- Gray -->
+    <color name="color_grey">#979899</color>
+
+    <!-- Text -->
+
+    <color name="color_label">#7a8392</color>
+
+    <!-- White Opacity -->
+
+    <color name="white_a_80">#E6ffffff</color>
+    <color name="white_a_60">#99FFFFFF</color>
+    <color name="white_a_30">#4DFFFFFF</color>
+    <color name="white_a_20">#33FFFFFF</color>
+    <color name="white_a_10">#1aFFFFFF</color>
+
+    <!-- Black Opacity -->
+
+    <color name="black_a_60">#99000000</color>
+    <color name="black_a_20">#33000000</color>
+    <color name="black_a_30">#33000000</color>
+    <color name="black_a_10">#1a000000</color>
+
+    <!-- Purple Opacity -->
+    <color name="purple_a_20">#335c4c7c</color>
+
+    <!-- scanner -->
+    <color name="scan_mask">#60000000</color>
+    <color name="scan_laser">#cc0000</color>
+    <color name="scan_dot">#ff6600</color>
+    <color name="scan_result_view">#b0000000</color>
+    <color name="scan_result_dots">#c099cc00</color>
+
+    <!-- Tutorial -->
+
+    <color name="bg_screen1">#7B3d85</color>
+    <color name="bg_screen2">#73bdc5</color>
+    <color name="bg_screen3">#ed8557</color>
+
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+    <color name="white">#ffffff</color>
+
+</resources>

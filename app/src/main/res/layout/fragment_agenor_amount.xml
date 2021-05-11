@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/bg_balance"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bgPurple">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_watch_only"
+        android:visibility="gone"
+        android:text="@string/screen_title_watch_only"
+        android:textColor="@color/bgInput"
+        android:layout_alignParentEnd="true"
+        android:textSize="14sp"
+        android:paddingEnd="16dp"
+        android:paddingTop="7dp"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:id = "@+id/pivValue"
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="1"
+                    android:text = "0 AGE"
+                    android:textColor = "@color/white"
+                    android:textSize = "24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:id="@+id/txt_local_currency"
+                    android:textColor = "@color/white"
+                    android:textSize = "14sp"
+                    android:text="0 USD"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp"
+                android:paddingStart="2dp">
+
+                <TextView
+                    android:id = "@+id/text_value_bottom"
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="1"
+                    android:text = "0 zAGE"
+                    android:textColor = "@color/white_a_60"
+                    android:textSize = "16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:id="@+id/text_value_bottom_local"
+                    android:textColor = "@color/white_a_60"
+                    android:textSize = "14sp"
+                    android:text="0 USD"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_height="1dp"
+                android:background="@color/white_a_60"/>
+
+            <TextView
+                android:id = "@+id/txt_local_total"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="right"
+                android:text = "0 USD"
+                tools:text = "14710 USD"
+                android:textColor = "@color/white_a_80"
+                android:textSize = "20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_blocked"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgBlack30"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unavailable"
+                android:textSize="14sp"
+                android:textColor="@color/white_a_80"
+                android:layout_marginRight="8dp"/>
+
+            <TextView
+                android:id = "@+id/txt_unnavailable"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "Unspendable: 0"
+                android:textColor = "@color/white_a_60"
+                android:textSize = "14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
