@@ -1,31 +1,8 @@
 # Agenor-Wallet
 
-![alt text](https://github.com/Agenor-Project/Agenor-Android/blob/master/banner/Feature%20Image.jpg)
-
 Welcome to the Agenor mobile wallet for android!
 
-
-This project contains several sub-projects:
-
-app: The Android app itself. This is probably what you're searching for.
-
-pivtrumj: Stratum protocol implementation.
-
-agenor-core-0.14.3-12.1: pivxj.
-
-You can build all sub-projects at once using Gradle:
-
-gradle clean build
+Agenor aims to drive the long-awaited mass adoption of cryptocurrencies by bringing efficiency, security, transparency, and reliability to every business operating in the cryptocurrency ecosystem.
 
 
-### Cloning repository.
-
-Use git clone --recurse-submodules https://github.com/<Agenor or furszy>/Agenor-Android.git
-  
-#### or
-
-Use git clone https://github.com/<Agenor or furszy>/Agenor-Android.git
-  
-git submodule init
-
-git submodule update
+We understand mass adoption and usage of cryptocurrencies are hindered by technical complexities. Our goal is to lift these technical barriers and grow the usage of cryptocurrencies in a non-technical audience.
