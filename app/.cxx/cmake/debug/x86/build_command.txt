@@ -1,8 +1,8 @@
                 Executable : C:\Users\hulal\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HD:\Git Work\Argenor-Android\app
+-HD:\Git Work\Agenor-Android\app
 -DCMAKE_CXX_FLAGS=-std=c++11
--DCMAKE_FIND_ROOT_PATH=D:\Git Work\Argenor-Android\app\.cxx\cmake\debug\prefab\x86\prefab
+-DCMAKE_FIND_ROOT_PATH=D:\Git Work\Agenor-Android\app\.cxx\cmake\debug\prefab\x86\prefab
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\hulal\AppData\Local\Android\Sdk\ndk\21.1.6352462\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86
@@ -11,17 +11,17 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=x86
 -DCMAKE_ANDROID_NDK=C:\Users\hulal\AppData\Local\Android\Sdk\ndk\21.1.6352462
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Git Work\Argenor-Android\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Git Work\Agenor-Android\app\build\intermediates\cmake\debug\obj\x86
 -DCMAKE_MAKE_PROGRAM=C:\Users\hulal\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=23
 -DANDROID_STL=c++_shared
 -DANDROID_TOOLCHAIN=clang
--DMY_BOOST_LIBS_DIR=D:/Git Work/Argenor-Android/app/libs/1.67.0/libs/llvm
--DMY_BOOST_INC_DIR=D:/Git Work/Argenor-Android/app/libs/1.67.0/include
--DMY_OPENSSL_CRYPTO_LIBS_DIR=D:/Git Work/Argenor-Android/app/libs/openssl
--DMY_OPENSSL_CRYPTO_INC_DIR=D:/Git Work/Argenor-Android/app/libs/openssl/include
--BD:\Git Work\Argenor-Android\app\.cxx\cmake\debug\x86
+-DMY_BOOST_LIBS_DIR=D:/Git Work/Agenor-Android/app/libs/1.67.0/libs/llvm
+-DMY_BOOST_INC_DIR=D:/Git Work/Agenor-Android/app/libs/1.67.0/include
+-DMY_OPENSSL_CRYPTO_LIBS_DIR=D:/Git Work/Agenor-Android/app/libs/openssl
+-DMY_OPENSSL_CRYPTO_INC_DIR=D:/Git Work/Agenor-Android/app/libs/openssl/include
+-BD:\Git Work\Agenor-Android\app\.cxx\cmake\debug\x86
 -GNinja
 jvmArgs : 
 

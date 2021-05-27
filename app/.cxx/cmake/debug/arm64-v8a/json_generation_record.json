@@ -2,37 +2,43 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 23 min SDK version: arm64-v8a",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
     "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
     "message": "Trying to locate CMake in local SDK repository.",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
     "message": "- CMake found in SDK at \u0027C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
+    "tag": "debug|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
+    "file": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
     "tag": "debug|arm64-v8a"
   }
 ]

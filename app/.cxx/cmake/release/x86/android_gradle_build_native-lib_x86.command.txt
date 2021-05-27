@@ -1,7 +1,0 @@
-Executable : C:\Users\hulal\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-D:\Git Work\Argenor-Android\app\.cxx\cmake\release\x86
-native-lib
-jvmArgs : 
-

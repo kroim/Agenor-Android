@@ -127,30 +127,30 @@ public class RestoreWordsActivity extends BaseActivity {
         } else {
             try {
                 //Restore Wallet
-                String word1 = txtWord1.getText().toString();
-                String word2 = txtWord2.getText().toString();
-                String word3 = txtWord3.getText().toString();
-                String word4 = txtWord4.getText().toString();
-                String word5 = txtWord5.getText().toString();
-                String word6 = txtWord6.getText().toString();
-                String word7 = txtWord7.getText().toString();
-                String word8 = txtWord8.getText().toString();
-                String word9 = txtWord9.getText().toString();
-                String word10 = txtWord10.getText().toString();
-                String word11 = txtWord11.getText().toString();
-                String word12 = txtWord12.getText().toString();
-                String word13 = txtWord13.getText().toString();
-                String word14 = txtWord14.getText().toString();
-                String word15 = txtWord15.getText().toString();
-                String word16 = txtWord16.getText().toString();
-                String word17 = txtWord17.getText().toString();
-                String word18 = txtWord18.getText().toString();
-                String word19 = txtWord19.getText().toString();
-                String word20 = txtWord20.getText().toString();
-                String word21 = txtWord21.getText().toString();
-                String word22 = txtWord22.getText().toString();
-                String word23 = txtWord23.getText().toString();
-                String word24 = txtWord24.getText().toString();
+                String word1 = txtWord1.getText().toString().trim();
+                String word2 = txtWord2.getText().toString().trim();
+                String word3 = txtWord3.getText().toString().trim();
+                String word4 = txtWord4.getText().toString().trim();
+                String word5 = txtWord5.getText().toString().trim();
+                String word6 = txtWord6.getText().toString().trim();
+                String word7 = txtWord7.getText().toString().trim();
+                String word8 = txtWord8.getText().toString().trim();
+                String word9 = txtWord9.getText().toString().trim();
+                String word10 = txtWord10.getText().toString().trim();
+                String word11 = txtWord11.getText().toString().trim();
+                String word12 = txtWord12.getText().toString().trim();
+                String word13 = txtWord13.getText().toString().trim();
+                String word14 = txtWord14.getText().toString().trim();
+                String word15 = txtWord15.getText().toString().trim();
+                String word16 = txtWord16.getText().toString().trim();
+                String word17 = txtWord17.getText().toString().trim();
+                String word18 = txtWord18.getText().toString().trim();
+                String word19 = txtWord19.getText().toString().trim();
+                String word20 = txtWord20.getText().toString().trim();
+                String word21 = txtWord21.getText().toString().trim();
+                String word22 = txtWord22.getText().toString().trim();
+                String word23 = txtWord23.getText().toString().trim();
+                String word24 = txtWord24.getText().toString().trim();
 
                 final List<String> mnemonic = Lists.newArrayList(
                         word1,

@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
-    "cmakeServerLogFile": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\x86_64\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cxx\\release\\x86_64",
+    "cmakeArtifactsBaseFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
+    "cmakeServerLogFile": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\x86_64\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cxx\\release\\x86_64",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,7 +15,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
+      "buildRoot": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
       "cmakeToolchain": "C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\prefab\\x86_64\\prefab"
+          "value": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\prefab\\x86_64\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -61,7 +61,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "D:\\Git Work\\Argenor-Android\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64"
+          "value": "D:\\Git Work\\Agenor-Android\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -85,39 +85,39 @@
         },
         {
           "name": "MY_BOOST_LIBS_DIR",
-          "value": "D:/Git Work/Argenor-Android/app/libs/1.67.0/libs/llvm"
+          "value": "D:/Git Work/Agenor-Android/app/libs/1.67.0/libs/llvm"
         },
         {
           "name": "MY_BOOST_INC_DIR",
-          "value": "D:/Git Work/Argenor-Android/app/libs/1.67.0/include"
+          "value": "D:/Git Work/Agenor-Android/app/libs/1.67.0/include"
         },
         {
           "name": "MY_OPENSSL_CRYPTO_LIBS_DIR",
-          "value": "D:/Git Work/Argenor-Android/app/libs/openssl"
+          "value": "D:/Git Work/Agenor-Android/app/libs/openssl"
         },
         {
           "name": "MY_OPENSSL_CRYPTO_INC_DIR",
-          "value": "D:/Git Work/Argenor-Android/app/libs/openssl/include"
+          "value": "D:/Git Work/Agenor-Android/app/libs/openssl/include"
         }
       ]
     }
   },
-  "cxxBuildFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
+  "cxxBuildFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
   "info": {
     "abi": "X86_64",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
+  "originalCxxBuildFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\x86_64",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared",
       "-DANDROID_TOOLCHAIN\u003dclang",
-      "-DMY_BOOST_LIBS_DIR\u003dD:/Git Work/Argenor-Android/app/libs/1.67.0/libs/llvm",
-      "-DMY_BOOST_INC_DIR\u003dD:/Git Work/Argenor-Android/app/libs/1.67.0/include",
-      "-DMY_OPENSSL_CRYPTO_LIBS_DIR\u003dD:/Git Work/Argenor-Android/app/libs/openssl",
-      "-DMY_OPENSSL_CRYPTO_INC_DIR\u003dD:/Git Work/Argenor-Android/app/libs/openssl/include"
+      "-DMY_BOOST_LIBS_DIR\u003dD:/Git Work/Agenor-Android/app/libs/1.67.0/libs/llvm",
+      "-DMY_BOOST_INC_DIR\u003dD:/Git Work/Agenor-Android/app/libs/1.67.0/include",
+      "-DMY_OPENSSL_CRYPTO_LIBS_DIR\u003dD:/Git Work/Agenor-Android/app/libs/openssl",
+      "-DMY_OPENSSL_CRYPTO_INC_DIR\u003dD:/Git Work/Agenor-Android/app/libs/openssl/include"
     ],
     "buildTargetSet": [],
     "implicitBuildTargetSet": [],
@@ -135,12 +135,12 @@
         "ninjaExe": "C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx",
+      "cxxFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "D:\\Git Work\\Argenor-Android\\app\\build\\intermediates",
-      "makeFile": "D:\\Git Work\\Argenor-Android\\app\\CMakeLists.txt",
-      "moduleBuildFile": "D:\\Git Work\\Argenor-Android\\app\\build.gradle",
-      "moduleRootFolder": "D:\\Git Work\\Argenor-Android\\app",
+      "intermediatesFolder": "D:\\Git Work\\Agenor-Android\\app\\build\\intermediates",
+      "makeFile": "D:\\Git Work\\Agenor-Android\\app\\CMakeLists.txt",
+      "moduleBuildFile": "D:\\Git Work\\Agenor-Android\\app\\build.gradle",
+      "moduleRootFolder": "D:\\Git Work\\Agenor-Android\\app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -204,12 +204,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "D:\\Git Work\\Argenor-Android\\.cxx",
-        "cxxFolder": "D:\\Git Work\\Argenor-Android\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\Git Work\\Agenor-Android\\.cxx",
+        "cxxFolder": "D:\\Git Work\\Agenor-Android\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "D:\\Git Work\\Argenor-Android",
+        "rootBuildGradleFolder": "D:\\Git Work\\Agenor-Android",
         "sdkFolder": "C:\\Users\\hulal\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
@@ -231,7 +231,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "D:\\Git Work\\Argenor-Android\\app\\build\\intermediates\\cmake\\release\\obj",
+    "objFolder": "D:\\Git Work\\Agenor-Android\\app\\build\\intermediates\\cmake\\release\\obj",
     "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -239,8 +239,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\prefab",
+    "prefabDirectory": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "D:\\Git Work\\Argenor-Android\\app\\.cxx\\cmake\\release\\prefab\\x86_64"
+  "prefabFolder": "D:\\Git Work\\Agenor-Android\\app\\.cxx\\cmake\\release\\prefab\\x86_64"
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Argenor-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Argenor-Android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Argenor-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Argenor-Android.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile/Argenor-Android.mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile/Argenor-Android.mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agenor-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Agenor-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Agenor-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Agenor-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile/Agenor-Android.mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile/Agenor-Android.mobile.iml" />
     </modules>
   </component>
 </project>
